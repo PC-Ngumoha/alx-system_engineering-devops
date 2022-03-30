@@ -32,7 +32,7 @@ This script, on invocation, changes the working directory from the current worki
 <p align="center">
 	
 <code>
-~$ ./2-bring_me_home
+~$ source ./2-bring_me_home
 </code>
 </p>
 
@@ -159,9 +159,17 @@ press ENTER.
 
 
 
+### 11-lists
+This script will, on invocation, print to the terminal, the content (files and subdirectories), including the hidden content (those whose names are prefixed with "."), of the current working directory, the parent of the working directory and the /boot directory, in that exact order. In order to use it, open up a terminal and type:
 
 
+<p align="center">
+<code>
+ ~$ ./11-lists 
+</code>
+</p>
 
+press ENTER.
 
 
 
