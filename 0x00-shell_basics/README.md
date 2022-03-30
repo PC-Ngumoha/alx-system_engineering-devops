@@ -57,11 +57,23 @@ To confirm that the current directory is indeed the user's home directory. If yo
 
 
 ### 3-listfiles
-This script will, on invocation, list out all the files and/or sub-directories in the working directory in full-details (i.e read-write permissions, owner details, group details, size, date and time, name of file) in the terminal. In order to use it, open up a terminal and type:
+This script will, on invocation, list out all the files and/or sub-directories in the working directory in full-details (i.e read-write permissions, owner details, group details, size, date and time of creation/update, name of file) in the terminal. In order to use it, open up a terminal and type:
 
 <p align="center">
 <code>
  ~$ ./3-listfiles  
+</code>
+</p>
+
+press ENTER
+
+
+### 4-listmorefiles
+This script will, on invocation, list out the full details (i.e read-write permissions, owner details, group details, size, date and time of creation/update, name of file) of all the files and/or sub-directories in the working directory, including the directories and/or files whose name begin with a "." (which are usually hidden). In order to use it, open up a terminal and tyoe: 
+
+<p align="center">
+<code>
+ ~$ ./4-listmorefiles  
 </code>
 </p>
 
