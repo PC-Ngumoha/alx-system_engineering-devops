@@ -42,13 +42,11 @@ press ENTER. and then type :
 To confirm that the current directory is indeed the user's home directory. If you are in the user's home directory, it should display something similar to the following: 
 
 <p align="center">
-	
-`~$  
-
- /home/user  
- 
- ~$
-`
+<code>
+~$ &nbsp; <br>
+/home/user &nbsp; <br>
+~$ &nbsp; <br>
+</code>
 </p>
 
 
