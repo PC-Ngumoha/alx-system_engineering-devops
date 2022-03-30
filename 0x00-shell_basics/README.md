@@ -4,8 +4,9 @@
 This script prints out the absolute path to the current working directory to the terminal on invocation by the user of the program. In order to use the script just open a terminal and type in the following command:
 
 <p align="center">
-	
-`~$ ./0-current_working_directory`
+<code>
+~$ ./0-current_working_directory
+</code>	
 </p>
 
 
@@ -50,7 +51,7 @@ To confirm that the current directory is indeed the user's home directory. If yo
 
 <p align="center">
 <code>
-/home/user  
+~$ /home/user  
 </code>
 </p>
 
