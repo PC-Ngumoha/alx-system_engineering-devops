@@ -89,4 +89,24 @@ This script will, on invocation, carry out the same operation ast the "4-listmor
 </code>
 </p>
 
-press ENTER. 
+press ENTER
+
+### 6-firstdirectory
+This script will, on invocation create a new directory named "my_first_directory" in the /tmp/ directory. In order to use it, open up a terminal and type:
+
+
+<p align="center">
+<code>
+ ~$ ./6-firstdirectory  
+</code>
+</p>
+
+press ENTER.
+
+
+
+
+
+
+
+. 
