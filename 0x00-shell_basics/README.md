@@ -184,6 +184,26 @@ The script will, on invocation, determine the type of file that the file "iamafi
 press ENTER
 
 
+### 13-symbolic-link
+This script will, on invocation, create a symbolic link **__ls__** which will link to the file **/bin/ls**. In order to use it, open up a terminal and type:
+ 
+
+<p align="center">
+<code>
+ ~$ ./13-symbolic_link 
+</code>
+</p>
+
+press ENTER
+
+
+
+
+
+
+
+
+
 
 
 
