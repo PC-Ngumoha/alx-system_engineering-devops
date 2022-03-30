@@ -117,6 +117,23 @@ This script will, on invocation, move the file "betty" (If it does not exist, it
 press ENTER
 
 
+### 8-firstdelete
+This script will, on invocation, delete the file "betty" (Which has already been created by the previous script) in the /tmp/ directory from the "my_first_directory" subdirectory in the same /tmp/ directory. In order to use it, open a terminal and type:
+
+
+<p align="center">
+<code>
+ ~$ ./8-firstdelete 
+</code>
+</p>
+
+press ENTER
+
+
+
+
+
+
 
 
 
