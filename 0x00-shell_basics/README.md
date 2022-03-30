@@ -65,11 +65,11 @@ This script will, on invocation, list out all the files and/or sub-directories i
 </code>
 </p>
 
-press ENTER
+press ENTER.
 
 
 ### 4-listmorefiles
-This script will, on invocation, list out the full details (i.e read-write permissions, owner details, group details, size, date and time of creation/update, name of file) of all the files and/or sub-directories in the working directory, including the directories and/or files whose name begin with a "." (which are usually hidden). In order to use it, open up a terminal and tyoe: 
+This script will, on invocation, list out the full details (i.e read-write permissions, owner details, group details, size, date and time of creation/update, name of file) of all the files and/or sub-directories in the working directory, including the directories and/or files whose name begin with a "." (which are usually hidden). In order to use it, open up a terminal and type: 
 
 <p align="center">
 <code>
@@ -79,3 +79,14 @@ This script will, on invocation, list out the full details (i.e read-write permi
 
 press ENTER.
 
+
+### 5-listfilesdigitonly
+This script will, on invocation, carry out the same operation ast the "4-listmorefiles" script above. The only difference being that it would display the "group" and "owner" details in a numeric format. In order to use it, open up a terminal and type:
+
+<p align="center">
+<code>
+ ~$ ./5-listfilesdigitonly  
+</code>
+</p>
+
+press ENTER. 
