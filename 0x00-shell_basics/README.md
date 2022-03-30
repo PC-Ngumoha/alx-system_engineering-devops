@@ -169,9 +169,19 @@ This script will, on invocation, print to the terminal, the content (files and s
 </code>
 </p>
 
-press ENTER.
+press ENTER
+
+### 12-file_type
+The script will, on invocation, determine the type of file that the file "iamafile" is and displays a message to the terminal with that information. In order to use it, open up a terminal and type:
 
 
+<p align="center">
+<code>
+ ~$ ./12-file_type 
+</code>
+</p>
+
+press ENTER
 
 
 
