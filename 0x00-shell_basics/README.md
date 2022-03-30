@@ -43,9 +43,9 @@ To confirm that the current directory is indeed the user's home directory. If yo
 
 <p align="center">
 <code>
-~$ &nbsp; <br>
-/home/user &nbsp; <br>
-~$ &nbsp; <br>
+~$ &nbsp; 
+<br>/home/user &nbsp; 
+<br>~$ &nbsp; 
 </code>
 </p>
 
