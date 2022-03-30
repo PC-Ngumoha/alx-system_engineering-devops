@@ -16,8 +16,9 @@ and then press ENTER. This should display the absolute path to the working direc
 This script, on invocation, lists out the names of all the files and sub-directories in the working directory. In order to use the script, just open a terminal (Bash) and type the following command: 
 
 <p align="center">
-	
-`~$ ./1-listit`
+<code>
+~$ ./1-listit
+</code>	
 </p>
 
 
@@ -29,24 +30,27 @@ This script, on invocation, changes the working directory from the current worki
 
 <p align="center">
 	
-`~$ ./2-bring_me_home`
+<code>
+~$ ./2-bring_me_home
+</code>
 </p>
 
 press ENTER. and then type :
 
 <p align="center">
+<code>  
+~$ pwd
+</code>
+</p>
+<p align="center">
 	
-`~$ pwd`
 </p>
 
 To confirm that the current directory is indeed the user's home directory. If you are in the user's home directory, it should display something similar to the following: 
 
 <p align="center">
 <code>
-~$ &nbsp; 
-<br>/home/user &nbsp; 
-<br>~$ &nbsp; 
+/home/user  
 </code>
 </p>
-
 
