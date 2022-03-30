@@ -185,7 +185,7 @@ press ENTER
 
 
 ### 13-symbolic-link
-This script will, on invocation, create a symbolic link **__ls__** which will link to the file **/bin/ls**. In order to use it, open up a terminal and type:
+This script will, on invocation, create a symbolic link <pre>__ls__</pre> which will link to the file **/bin/ls**. In order to use it, open up a terminal and type:
  
 
 <p align="center">
