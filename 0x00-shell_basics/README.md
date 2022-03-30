@@ -237,8 +237,20 @@ This script will, on invocation, move all the files that start with an uppercase
 </pre>	
 </p>
 
+press ENTER 
 
 
+### 101-clean_emacs
+This script will, on invocation, delete all the files in the current working directory that end with the `~` sign. In order to use it, open up a terminal and type:
+
+
+<p align="center">
+<pre>
+ ~$ ./101-clean_emacs 
+</pre>	
+</p>
+
+press ENTER
 
 
 
