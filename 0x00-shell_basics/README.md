@@ -55,3 +55,15 @@ To confirm that the current directory is indeed the user's home directory. If yo
 </code>
 </p>
 
+
+### 3-listfiles
+This script will, on invocation, list out all the files and/or sub-directories in the working directory in full-details (i.e read-write permissions, owner details, group details, size, date and time, name of file) in the terminal. In order to use it, open up a terminal and type:
+
+<p align="center">
+<code>
+ ~$ ./3-listfiles  
+</code>
+</p>
+
+press ENTER.
+
