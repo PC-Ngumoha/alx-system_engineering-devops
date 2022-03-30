@@ -5,7 +5,9 @@ This script prints out the absolute path to the current working directory to the
 
 <p align="center">
 <code>
+<pre>
 ~$ ./0-current_working_directory
+</pre>
 </code>	
 </p>
 
@@ -18,6 +20,7 @@ This script, on invocation, lists out the names of all the files and sub-directo
 
 <p align="center">
 <code>
+<pre></pre>
 ~$ ./1-listit
 </code>	
 </p>
@@ -32,6 +35,7 @@ This script, on invocation, changes the working directory from the current worki
 <p align="center">
 	
 <code>
+<pre></pre>
 ~$ source ./2-bring_me_home
 </code>
 </p>
@@ -40,6 +44,7 @@ press ENTER. and then type :
 
 <p align="center">
 <code>  
+<pre></pre>
 ~$ pwd
 </code>
 </p>
@@ -51,6 +56,7 @@ To confirm that the current directory is indeed the user's home directory. If yo
 
 <p align="center">
 <code>
+<pre></pre>
  /home/user  
 </code>
 </p>
@@ -61,6 +67,7 @@ This script will, on invocation, list out all the files and/or sub-directories i
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./3-listfiles  
 </code>
 </p>
@@ -73,6 +80,7 @@ This script will, on invocation, list out the full details (i.e read-write permi
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./4-listmorefiles  
 </code>
 </p>
@@ -85,6 +93,7 @@ This script will, on invocation, carry out the same operation ast the "4-listmor
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./5-listfilesdigitonly  
 </code>
 </p>
@@ -97,6 +106,7 @@ This script will, on invocation create a new directory named "my_first_directory
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./6-firstdirectory  
 </code>
 </p>
@@ -110,6 +120,7 @@ This script will, on invocation, move the file "betty" (If it does not exist, it
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./7-movethatfile  
 </code>
 </p>
@@ -123,6 +134,7 @@ This script will, on invocation, delete the file "betty" (Which has already been
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./8-firstdelete 
 </code>
 </p>
@@ -136,6 +148,7 @@ This script will, on invocation, delete the "my_first_directory" subdirectory lo
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./9-firstdirdeletion 
 </code>
 </p>
@@ -150,6 +163,7 @@ This script will, on invocation, return to the previous working directory.In ord
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ source ./10-back 
 </code>
 </p>
@@ -165,6 +179,7 @@ This script will, on invocation, print to the terminal, the content (files and s
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./11-lists 
 </code>
 </p>
@@ -177,6 +192,7 @@ The script will, on invocation, determine the type of file that the file "iamafi
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./12-file_type 
 </code>
 </p>
@@ -185,11 +201,12 @@ press ENTER
 
 
 ### 13-symbolic-link
-This script will, on invocation, create a symbolic link <pre>__ls__</pre> which will link to the file **/bin/ls**. In order to use it, open up a terminal and type:
+This script will, on invocation, create a symbolic link `__ls__` which will link to the file **/bin/ls**. In order to use it, open up a terminal and type:
  
 
 <p align="center">
 <code>
+<pre></pre>
  ~$ ./13-symbolic_link 
 </code>
 </p>
