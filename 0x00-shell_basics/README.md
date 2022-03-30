@@ -1,5 +1,7 @@
 # WHAT EACH SCRIPT DOES
 
+## Basic Scripts
+
 ### 0-current_working_directory 
 This script prints out the absolute path to the current working directory to the terminal on invocation by the user of the program. In order to use the script just open a terminal and type in the following command:
 
@@ -220,6 +222,27 @@ This script will, on invocation, copy all the HTML files in the working director
 </p>
 
 press ENTER
+
+
+
+## Advanced Scripts
+
+### 100-lets_move
+This script will, on invocation, move all the files that start with an uppercase letter to the directory `/tmp/u`. In order to use it, open up a terminal and type: 
+
+
+<p align="center">
+<pre>
+ ~$ ./100-lets_move 
+</pre>	
+</p>
+
+
+
+
+
+
+
 
 
 
