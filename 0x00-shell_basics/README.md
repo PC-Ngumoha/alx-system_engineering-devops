@@ -4,11 +4,9 @@
 This script prints out the absolute path to the current working directory to the terminal on invocation by the user of the program. In order to use the script just open a terminal and type in the following command:
 
 <p align="center">
-<code>
 <pre>
 ~$ ./0-current_working_directory
-</pre>
-</code>	
+</pre>	
 </p>
 
 
