@@ -22,3 +22,31 @@ This script, on invocation, lists out the names of all the files and sub-directo
 
 
 press ENTER. The should then proceed to list out the contents (files and sub-directories) in the working directory.
+
+### 2-bring_me_home 
+This script, on invocation, changes the working directory from the current working directory to the Home directory of the user. To use it, just open a terminal and type: 
+
+
+<p align="center">
+	
+`~$ ./2-bring_me_home`
+</p>
+
+press ENTER. and then type :
+
+<p align="center">
+	
+`~$ pwd`
+</p>
+
+To confirm that the current directory is indeed the user's home directory. If you are in the user's home directory, it should display something similar to the following: 
+
+<p align="center">
+	
+`~$ 
+ /home/user
+ ~$
+`
+</p>
+
+
