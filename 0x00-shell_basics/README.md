@@ -130,6 +130,27 @@ This script will, on invocation, delete the file "betty" (Which has already been
 press ENTER
 
 
+### 9-firstdirdeletion
+This script will, on invocation, delete the "my_first_directory" subdirectory located in the /tmp/ directory. In order to use it, open a terminal and type:
+
+
+<p align="center">
+<code>
+ ~$ ./9-firstdirdeletion 
+</code>
+</p>
+
+press ENTER
+
+
+
+
+
+
+
+
+
+
 
 
 
