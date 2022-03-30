@@ -101,8 +101,20 @@ This script will, on invocation create a new directory named "my_first_directory
 </code>
 </p>
 
-press ENTER.
+press ENTER
 
+
+### 7-movethatfile
+This script will, on invocation, move the file "betty" (If it does not exist, it will create it)in the /tmp/ directory into the "my_first_directory" sub-directory in the same /tmp/ directory. In order to use it, open up a terminal and type:
+
+
+<p align="center">
+<code>
+ ~$ ./7-movethatfile  
+</code>
+</p>
+
+press ENTER
 
 
 
