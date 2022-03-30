@@ -209,9 +209,17 @@ This script will, on invocation, create a symbolic link `__ls__` which will link
 
 press ENTER
 
+### 14-copy_link 
+This script will, on invocation, copy all the HTML files in the working directory to overwrite the contents of the html files in the parent of the working directory, but only when the files did not exist in the parent directory or when the content of the copied files are more recent than those in the parent directory. In order to use it, open up a terminal and type:
 
 
+<p align="center">
+<pre>
+ ~$ ./14-copy_html 
+</pre>	
+</p>
 
+press ENTER
 
 
 
