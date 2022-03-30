@@ -144,6 +144,21 @@ press ENTER
 
 
 
+### 10-back
+This script will, on invocation, return to the previous working directory.In order to use it, open a terminal and type:
+
+
+<p align="center">
+<code>
+ ~$ source ./10-back 
+</code>
+</p>
+
+press ENTER.
+**NOTE:** This particular script does not work as well as the *cd -* builtin command. It can only go back to the previous pwd and cannot come back to the one you were previously at before calling it.
+
+
+
 
 
 
