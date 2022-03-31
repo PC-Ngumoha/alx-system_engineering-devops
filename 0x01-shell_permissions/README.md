@@ -82,7 +82,7 @@ Chukwuemeka@Ubuntu~$ ls -l
 displays: 
 
 <p align="center"><pre>
--rw-rw-r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+-rw-r--r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
 </pre></p>
 
 In order to add execute permissions to this `hello` file, enter the following code into the terminal 
@@ -102,7 +102,7 @@ Chukwuemeka@Ubuntu~$ ls -l
 This will produce the following line: 
 
 <p align="center"><pre>
--rwxrw-r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+-rwxr--r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
 </pre></p>
 
 Also, if the `hello` file does not exist, the terminal will display the following message: 
