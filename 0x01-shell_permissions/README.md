@@ -318,6 +318,15 @@ drwx-wxrwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 dir0
 You'll notice that the `olleh` file wasn't affected by the script
 
 
+### 12-directory_permissions
+This script will create a directory `my_dir` with permissions set to 751 in the current working directory. In order to use it, open up a terminal and enter: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./12-directory_permissions
+</pre></p>
+
+and press ENTER.
 
 
 
