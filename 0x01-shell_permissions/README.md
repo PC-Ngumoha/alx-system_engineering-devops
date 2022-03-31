@@ -289,6 +289,34 @@ Chukwuemeka@Ubuntu~$ ls -l
 </pre></p>
 
 
+### 11-directories_permissions
+This script when executed, will add execute permission to the owner, group and other of the subdirectories in the current directory. Regular files will be unaffected. For example: 
+If we have : 
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+drw--w-rw- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 dir0
+-rw--w-rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 olleh
+</pre></p>
+
+Once we run the command: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./11-directories_permissions
+</pre></p>
+
+We get: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+drwx-wxrwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 dir0
+-rw--w-rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 olleh
+</pre></p>
+
+You'll notice that the `olleh` file wasn't affected by the script
+
 
 
 
