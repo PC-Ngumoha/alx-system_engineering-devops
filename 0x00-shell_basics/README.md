@@ -253,6 +253,18 @@ This script will, on invocation, delete all the files in the current working dir
 press ENTER
 
 
+### 102-tree
+This script will, on invocation, create a nested directory structure `welcome/to/school` in the current working directory. In order to use it, open up a terminal and type:
+
+
+<p align="center">
+<pre>
+ ~$ ./102-tree 
+</pre>	
+</p>
+
+press ENTER
+
 
 
 
