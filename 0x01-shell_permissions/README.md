@@ -155,6 +155,50 @@ chmod: Cannot access 'hello': No such file or directory.
 
 
 
+### 7-everybody
+This script when executed, will add execution permissions to the owner, the group owner and the other users, to the file `hello`. For example: 
+Type: 
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+You will get: 
+
+
+<p align="center"><pre>
+-rw-r----- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
+</pre></p>
+
+In order to add execution permissions to the owner, group owner and the other users to the file `hello` in the current working directory. Type: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./7-everybody
+</pre></p>
+
+press ENTER. To confirm, type: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+You should get: 
+
+<p align="center"><pre>
+-rwxr-x--x 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
+</pre></p>
+
+
+Also, if the `hello` file does not exist, the terminal will display the following message: 
+
+<p align="center"><pre>
+chmod: Cannot access 'hello': No such file or directory.
+</pre></p>
+
+
+
 
 
 
