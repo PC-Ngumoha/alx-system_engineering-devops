@@ -187,7 +187,7 @@ Chukwuemeka@Ubuntu~$ ls -l
 You should get: 
 
 <p align="center"><pre>
--rwxr-x--x 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
+-r-xr-xr-x 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
 </pre></p>
 
 
