@@ -22,7 +22,7 @@ This script will on invocation, print the valid username of the current user to 
 Running a code like :
 
 <p align="center"><pre>
-User/Chukwuemeka/~$ ./1-who_am_i
+Chukwuemeka@Ubuntu~$ ./1-who_am_i
 </pre></p>
 
 will produce the following output on the terminal: 
