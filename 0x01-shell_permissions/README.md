@@ -72,5 +72,46 @@ This script will create an empty file called `hello` in the current working dire
 press ENTER
 
 
+### 5-execute
+This script when executed, will add execute permissions to the owner of the file `hello`. For example:
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+displays: 
+
+<p align="center"><pre>
+-rw-rw-r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+</pre></p>
+
+In order to add execute permissions to this `hello` file, enter the following code into the terminal 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./5-execute
+</pre></p>
+
+This will make the `hello` file executable. In order to confirm this , type :
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+This will produce the following line: 
+
+<p align="center"><pre>
+-rwxrw-r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+</pre></p>
+
+Also, if the `hello` file does not exist, the terminal will display the following message: 
+
+
+<p align="center"><pre>
+chmod: Cannot access 'hello': No such file or directory.
+</pre></p>
+
+
 
 
