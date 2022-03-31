@@ -113,5 +113,52 @@ chmod: Cannot access 'hello': No such file or directory.
 </pre></p>
 
 
+### 6-multiple_permissions
+This script when executed, will add execute permissions to the owner and group owners, and read permission to all other users to the file `hello`. For example:
+
+Type: 
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+You will get: 
+
+<p align="center"><pre>
+-r--r--r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+</pre></p>
+
+In order to add execute permissions to the owner and group owners of the `hello` file in this directory, open up a terminal and type:
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./6-multiple_permissions
+</pre></p>
+
+press ENTER. In order to verify that the permissions have been added to the file, type: 
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+And you will get: 
+
+<p align="center"><pre>
+-r-xr-xr-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+</pre></p>
+
+Also, if the `hello` file does not exist, the terminal will display the following message: 
+
+<p align="center"><pre>
+chmod: Cannot access 'hello': No such file or directory.
+</pre></p>
+
+
+
+
+
+
+
+
 
 
