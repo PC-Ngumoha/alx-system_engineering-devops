@@ -167,7 +167,7 @@ You will get:
 
 
 <p align="center"><pre>
--rw-r----- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
+-r--r--r-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
 </pre></p>
 
 In order to add execution permissions to the owner, group owner and the other users to the file `hello` in the current working directory. Type: 
