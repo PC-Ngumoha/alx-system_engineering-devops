@@ -17,3 +17,19 @@ In order to run the script, open up a terminal and type:
 
 press ENTER
 
+### 1-who_am_i
+This script will on invocation, print the valid username of the current user to the screen. For example: 
+Running a code like :
+
+<p align="center"><pre>
+User/Chukwuemeka/~$ ./1-who_am_i
+</pre></p>
+
+will produce the following output on the terminal: 
+
+<p align="center"><pre>
+Chukwuemeka
+</pre></p>
+
+So, in this case, `Chukwuemeka` is the valid username of the current user using the system.
+
