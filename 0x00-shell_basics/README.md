@@ -265,6 +265,18 @@ This script will, on invocation, create a nested directory structure `welcome/to
 
 press ENTER
 
+### 103-commas
+This script will, on invocation, list out the contents of the working directory as a comma-seperated list of entries (including the hidden contents of the directory), in which the directories `.` and `..` are always at the beginning. The files that start with a digit are always arranged before those that do that start with a digit and the directories are listed with a `/` attached.In order to use it, open a terminal and type:
+
+
+<p align="center">
+<pre>
+ ~$ ./103-commas 
+</pre>	
+</p>
+
+press ENTER
+
 
 
 
