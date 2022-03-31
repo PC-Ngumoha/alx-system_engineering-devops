@@ -251,11 +251,42 @@ Enter the following into the terminal:
 Chukwuemeka@Ubuntu~$ ./9-John_Doe
 </pre></p>
 
-press ENTER.
+press ENTER
 
 
+### 10-mirror_permissions
+This script will set the permissions of the file `hello` to be the same as those of the file `olleh` in the same working directory. For example: 
+If you could type: 
 
 
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+and get the following: 
+
+
+<p align="center"><pre>
+
+-------rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 hello
+-rw--w-rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 olleh
+</pre></p>
+
+When you enter the following into the terminal: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./10-mirror_permissions
+</pre></p>
+
+and press ENTER, you would get: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+-rw--w-rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 hello
+-rw--w-rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 olleh
+</pre></p>
 
 
 
