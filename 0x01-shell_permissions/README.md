@@ -144,7 +144,7 @@ Chukwuemeka@Ubuntu~$ ls -l
 And you will get: 
 
 <p align="center"><pre>
--r-xr-xr-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
+-rwxr-xr-- 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:26 hello
 </pre></p>
 
 Also, if the `hello` file does not exist, the terminal will display the following message: 
