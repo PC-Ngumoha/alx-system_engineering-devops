@@ -238,8 +238,20 @@ chmod: Cannot access 'hello': No such file or directory.
 </pre></p>
 
 
+### 9-John_Doe 
+This script on execution, will set the mode of the file `hello` to :
 
+<p align="center"><pre>
+-rwxr-x-wx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 hello
+</pre></p>
 
+Enter the following into the terminal:
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./9-John_Doe
+</pre></p>
+
+press ENTER.
 
 
 
