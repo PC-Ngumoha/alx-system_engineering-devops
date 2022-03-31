@@ -46,8 +46,20 @@ and press ENTER, the following will be displayed on the terminal:
 godzilla spiderman james_bond
 </pre></p>
 
-So, in this case, `godzilla` , `spiderman` and `james_bond` are all groups that `Chukwuemeka` belongs to.
+So, in this case, `godzilla` , `spiderman` and `james_bond` are all groups that `Chukwuemeka` belongs to
 
+### 3-new_owner 
+This script will change the owner of the file; `hello` from `root` to `betty`. In order to run this script, open up a terminal and enter: 
+
+<p align="center"><pre>
+~$ ./3-new_owner
+</pre></p>
+
+Then press ENTER. If the user exists, the change happens quietly. If not, the terminal displays a message like :
+
+<p align="center"><pre>
+chown: no such user called 'betty'
+</pre></p>
 
 
 
