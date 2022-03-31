@@ -198,6 +198,61 @@ chmod: Cannot access 'hello': No such file or directory.
 </pre></p>
 
 
+### 8-James_Bond
+This script will on execution set the permissions to the file `hello` such that the `owner` and `group` will have no permission at all while the `other` users get all the permissions. For example: If we have 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+and should get: 
+
+<p align="center"><pre>
+-r-xr-xr-x 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:35 hello
+</pre></p>
+
+When you type: 
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./8-James_Bond
+</pre></p>
+
+and press ENTER, you should be able to type the following into the terminal: 
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ls -l
+</pre></p>
+
+ and get: 
+
+<p align="center"><pre>
+-------rwx 1 Chukwuemeka Chukwuemeka 28 Sep 20 14:40 hello
+</pre></p>
+
+
+Also, if the `hello` file does not exist, the terminal will display the following message: 
+
+<p align="center"><pre>
+chmod: Cannot access 'hello': No such file or directory.
+</pre></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
