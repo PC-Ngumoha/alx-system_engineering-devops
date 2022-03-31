@@ -62,4 +62,15 @@ chown: no such user called 'betty'
 </pre></p>
 
 
+### 4-empty
+This script will create an empty file called `hello` in the current working directory. In order to run the script, open up a terminal and type: 
+
+<p align="center"><pre>
+~$ ./4-empty
+</pre></p>
+
+press ENTER
+
+
+
 
