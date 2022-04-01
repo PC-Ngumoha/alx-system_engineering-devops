@@ -326,8 +326,24 @@ This script will create a directory `my_dir` with permissions set to 751 in the 
 Chukwuemeka@Ubuntu~$ ./12-directory_permissions
 </pre></p>
 
-and press ENTER.
+and press ENTER
 
+
+### 13-change_group
+This script will on execution, change the group owner of a file `hello` from the default group owner to the new group `school`. In order to use it, open up a terminal and type: 
+
+
+<p align="center"><pre>
+Chukwuemeka@Ubuntu~$ ./13-change_group
+</pre></p>
+
+then press ENTER.
+
+Also, if the group does not exist, then a warning like the one below is displayed on the terminal: 
+
+<p align="center"><pre>
+chgrp: Invalid group 'school'
+</pre></p>
 
 
 
