@@ -77,7 +77,7 @@ Chukwuemeka@Ubuntu~$ ./9-duplicate_last_line
 press ENTER
 
 ### 10-no_more_js
-This script will on execution, delete all the regular files with the `.js` extension in the working directory and it's subfolders. In order to use it, open up a terminal and type: 
+This script will on execution, delete all the regular files with the `.js` extension in the working directory and it's subdirectories. In order to use it, open up a terminal and type: 
 <pre>
 Chukwuemeka@Ubuntu~$ ./10-no_more_js
 </pre>
