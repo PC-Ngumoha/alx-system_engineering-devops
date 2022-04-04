@@ -19,4 +19,11 @@ Chukwuemeka@Ubuntu~$ ./1-confused_smiley
 
 press ENTER
 
+### 2-hellofile
+This script will on execution print out all the contents of the local `/etc/passwd` file to the terminal. In order to use it, open up a terminal and type: 
+
+<pre>
+Chukwuemeka@Ubuntu~$ ./2-hellofile
+</pre>
+press ENTER
 
