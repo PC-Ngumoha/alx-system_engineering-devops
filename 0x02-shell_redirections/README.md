@@ -54,6 +54,15 @@ Chukwuemeka@Ubuntu~$ ./6-third_line
 </pre>
 press ENTER
 
+### 7-file
+This script will create the file named exactly `\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)` and write the content `Best School` into it. In order to use it, open up a terminal and type: 
+
+<pre>
+Chukwuemeka@Ubuntu~$ ./7-file
+</pre>
+press ENTER
+
+
 
 
 
