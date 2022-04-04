@@ -12,7 +12,6 @@ press ENTER.
 
 ### 1-confused_smiley
 This script will on execution print `"(Ôo)'` followed by a newline to the terminal. In order to use it, open up a terminal and type: 
-
 <pre>
 Chukwuemeka@Ubuntu~$ ./1-confused_smiley
 </pre>
@@ -21,7 +20,6 @@ press ENTER
 
 ### 2-hellofile
 This script will on execution print out all the contents of the local `/etc/passwd` file to the terminal. In order to use it, open up a terminal and type: 
-
 <pre>
 Chukwuemeka@Ubuntu~$ ./2-hellofile
 </pre>
@@ -29,12 +27,17 @@ press ENTER
 
 ### 3-twofiles
 This script will on execution print out all the contents of the local `/etc/passwd` and `/etc/hosts` files to the terminal. In order to use it, open up a terminal and type: 
-
-
 <pre>
 Chukwuemeka@Ubuntu~$ ./3-twofiles
 </pre>
 
+press ENTER
+
+### 4-lastlines
+This script will on execution print out only the last `10` lines of the local `/etc/passwd` file to the terminal. In order to use it, open up a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./4-lastlines
+</pre>
 press ENTER
 
 
