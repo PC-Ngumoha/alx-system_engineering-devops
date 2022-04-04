@@ -104,5 +104,12 @@ Chukwuemeka@Ubuntu~$ ./13-unique
 </pre>
 press ENTER
 
+### 14-findthatword
+This script will on execution, display to the terminal all the lines from the file `/etc/passwd` that contain the pattern `root`. In order to use it, open up a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./14-findthatword
+</pre>
+press ENTER
+
 
 
