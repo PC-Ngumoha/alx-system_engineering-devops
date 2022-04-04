@@ -125,6 +125,13 @@ Chukwuemeka@Ubuntu~$ ./16-whatsnext
 </pre>
 press ENTER
 
+### 17-hidethisword
+This script will on execution, print to the terminal the lines from the `/etc/passwd` file that do not contain the pattern; `bin`. In order to use it, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./17-hidethisword
+</pre>
+press ENTER
+
 
 
 
