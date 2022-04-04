@@ -69,6 +69,12 @@ Chukwuemeka@Ubuntu~$ ./8-cwd_state
 </pre>
 press ENTER
 
+### 9-duplicate_last_line
+This script will duplicate the last line of the file `iacta`. In order to use this script, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./9-duplicate_last_line
+</pre>
+press ENTER
 
 
 
