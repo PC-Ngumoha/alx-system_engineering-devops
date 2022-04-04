@@ -111,5 +111,14 @@ Chukwuemeka@Ubuntu~$ ./14-findthatword
 </pre>
 press ENTER
 
+### 15-countthatword
+This script will on execution, proceed to count and display to the terminal the number of lines from the file `/etc/passwd` that match the pattern `bin`. In order to use it, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./15-countthatword
+</pre>
+press ENTER
+
+
+
 
 
