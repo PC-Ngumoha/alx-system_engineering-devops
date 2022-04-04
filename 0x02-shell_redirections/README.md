@@ -62,6 +62,13 @@ Chukwuemeka@Ubuntu~$ ./7-file
 </pre>
 press ENTER
 
+### 8-cwd_state 
+This script will write the results of the command `ls -la` into the file `ls_cwd_content` (If the file does not exists, it will create it. If the file already exists, it will overwrite the contents of the file). In order to use this script, open up a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./8-cwd_state
+</pre>
+press ENTER
+
 
 
 
