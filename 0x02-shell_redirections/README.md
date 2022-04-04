@@ -88,7 +88,14 @@ This script will on execution, proceed to count all the subdirectories in the cu
 <pre>
 Chukwuemeka@Ubuntu~$ ./11-directories
 </pre>
-press ENTER.
+press ENTER
+
+### 12-newest_files
+This script will on execution, proceed to list out the 10 newest files in the current working directory (Using the modification time of each of the files as a reference to determine which is the newest and which is the oldest) to the terminal. In order to use it, open up a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./12-newest_files
+</pre>
+press ENTER
 
 
 
