@@ -155,6 +155,14 @@ Chukwuemeka@Ubuntu~$ ./echo "Chicago Chicago" | ./20-hiago
 hiago hiago
 </pre>
 
+### 21-reverse
+This script will on execution, take a string from the standard input and reverse the characters in the inputted string before outputting it to the terminal. For example: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./echo "Reverse" | ./21-reverse
+esreveR
+</pre>
+
+
 
 
 
