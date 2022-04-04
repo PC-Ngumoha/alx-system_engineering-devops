@@ -139,6 +139,15 @@ Chukwuemeka@Ubuntu~$ ./18-letteronly
 </pre>
 press ENTER
 
+### 19-AZ
+This script will on execution, take as input the standard input and replace the characters `A` and `C` with `Z` and `e`respectively. For example:
+<pre>
+Chukwuemeka@Ubuntu~$ ./echo 'Replace all characters' | ./19-AZ
+Replaee all eharaeters
+</pre>
+
+and that's that.
+
 
 
 
