@@ -47,6 +47,13 @@ Chukwuemeka@Ubuntu~$ ./5-firstlines
 </pre>
 press ENTER
 
+### 6-third_line
+This script will on execution print out only the third line from the file provided to it during execution (In this case, it works with the "iacta" file which will be provided). In order to use it, open a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./6-third_line
+</pre>
+press ENTER
+
 
 
 
