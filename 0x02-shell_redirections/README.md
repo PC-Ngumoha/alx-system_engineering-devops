@@ -40,6 +40,12 @@ Chukwuemeka@Ubuntu~$ ./4-lastlines
 </pre>
 press ENTER
 
+### 5-firstlines
+This script will on execution print out only the first 10 lines of the local `/etc/passwd` file to the terminal. In order to use it, open a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./5-firstlines
+</pre>
+press ENTER
 
 
 
