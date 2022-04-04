@@ -132,6 +132,14 @@ Chukwuemeka@Ubuntu~$ ./17-hidethisword
 </pre>
 press ENTER
 
+### 18-letteronly 
+This script will on execution, search through the file `/etc/ssh/sshd_config` for lines that begin with a letter and display same to the terminal. In order to use this, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./18-letteronly
+</pre>
+press ENTER
+
+
 
 
 
