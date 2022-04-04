@@ -148,6 +148,15 @@ Replaee all eharaeters
 
 and that's that.
 
+### 20-hiago
+This script will on execution, take as input the standard input and remove the characters `c` and `C` from it. For example: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./echo "Chicago Chicago" | ./20-hiago
+hiago hiago
+</pre>
+
+
+
 
 
 
