@@ -27,3 +27,18 @@ Chukwuemeka@Ubuntu~$ ./2-hellofile
 </pre>
 press ENTER
 
+### 3-twofiles
+This script will on execution print out all the contents of the local `/etc/passwd` and `/etc/hosts` files to the terminal. In order to use it, open up a terminal and type: 
+
+
+<pre>
+Chukwuemeka@Ubuntu~$ ./3-twofiles
+</pre>
+
+press ENTER
+
+
+
+
+
+
