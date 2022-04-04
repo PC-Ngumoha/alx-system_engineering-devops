@@ -83,6 +83,13 @@ Chukwuemeka@Ubuntu~$ ./10-no_more_js
 </pre>
 press ENTER
 
+### 11-directories
+This script will on execution, proceed to count all the subdirectories in the current working directory (including the hidden subdirectories) and display the count on the terminal. In order to use it, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./11-directories
+</pre>
+press ENTER.
+
 
 
 
