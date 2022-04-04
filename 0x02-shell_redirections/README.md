@@ -118,6 +118,12 @@ Chukwuemeka@Ubuntu~$ ./15-countthatword
 </pre>
 press ENTER
 
+### 16-whatsnext
+This script will on execution, print out to the terminal the lines from the file `/etc/passwd` that match with the pattern `root` as well as the next 3 lines after the matching line. In order to use it, open a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./16-whatsnext
+</pre>
+press ENTER
 
 
 
