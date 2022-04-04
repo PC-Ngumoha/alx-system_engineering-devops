@@ -97,6 +97,12 @@ Chukwuemeka@Ubuntu~$ ./12-newest_files
 </pre>
 press ENTER
 
+### 13-unique
+This script will on execution, look through the items in a list and only print to the terminal the items which occur only once (which are unique). In order to use it, open up a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./13-unique
+</pre>
+press ENTER
 
 
 
