@@ -50,5 +50,12 @@ Chukwuemeka@Ubuntu~$ ./5-local_variables
 </pre>  
 press ENTER
 
+### 6-create_local_variable
+This script will on execution, create a local variable called `$BEST` set to the value `School`. In order to run the script, type in the following code into the terminal: 
+<pre>
+Chukwuemeka@Ubuntu~$ source ./6-create_local_variable
+</pre>  
+press ENTER.
+
 
 
