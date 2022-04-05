@@ -22,4 +22,11 @@ Chukwuemeka@Ubuntu~$ ./1-hello_you
 </pre>  
 press ENTER
 
+### 2-path
+This script when executed, will add the directory path `/action` as the last directory path of the `$PATH` variable. In order to run the script, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ source ./2-path
+</pre>  
+press ENTER.
+
 
