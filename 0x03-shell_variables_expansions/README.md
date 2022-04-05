@@ -99,6 +99,15 @@ Chukwuemeka@Ubuntu~$ ./10-love_exponent_breath
 </pre>  
 
 
+### 11-binary_to_decimal
+This script will on execution, convert the binary number stored in the global variable `BINARY` to decimal form and display the result on the terminal. For example:
+<pre>
+Chukwuemeka@Ubuntu~$ export BINARY=101001110010
+Chukwuemeka@Ubuntu~$ ./11-binary_to_decimal
+2674
+</pre>
+  
+
 
 
 
