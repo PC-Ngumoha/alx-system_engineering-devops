@@ -55,7 +55,25 @@ This script will on execution, create a local variable called `$BEST` set to the
 <pre>
 Chukwuemeka@Ubuntu~$ source ./6-create_local_variable
 </pre>  
-press ENTER.
+press ENTER
+
+### 7-create_global_variable
+This script will on execution, create a global variable called `BEST` set to the value `School`. To run this script, type: 
+<pre>
+Chukwuemeka@Ubuntu~$ source ./7-create_global_variable
+</pre>  
+press ENTER
+
+In order to verify that what was created was actually a global variable as opposed to a local variable, open up the terminal and type the following:
+<pre>
+Chukwuemeka@Ubuntu~$ printenv
+...
+BEST="School"
+...
+</pre>  
+
+
+
 
 
 
