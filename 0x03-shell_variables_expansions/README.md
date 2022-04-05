@@ -89,6 +89,37 @@ Chukwuemeka@Ubuntu~$ ./9-divide_and_rule
 64
 </pre>  
 
+### 10-love_exponent_breath
+This script will on execution, display the result of raising the value in the global variable `BREATH` to the value in the global variable `LOVE` on the terminal. For example: 
+<pre>
+Chukwuemeka@Ubuntu~$ export BREATH=4
+Chukwuemeka@Ubuntu~$ export LOVE=3
+Chukwuemeka@Ubuntu~$ ./10-love_exponent_breath
+64
+</pre>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
