@@ -79,7 +79,15 @@ Chukwuemeka@Ubuntu~$ export TRUEKNOWLEDGE=62
 Chukwuemeka@Ubuntu~$ ./8-true_knowledge
 190
 </pre>
-  
+
+### 9-divide_and_rule
+This script will on execution, display the result of dividing the value in the global variable `POWER` by the value in the global variable `DIVIDE` on the terminal. For example: 
+<pre>
+Chukwuemeka@Ubuntu~$ export POWER=128
+Chukwuemeka@Ubuntu~$ export DIVIDE=2
+Chukwuemeka@Ubuntu~$ ./9-divide_and_rule
+64
+</pre>  
 
 
 
