@@ -162,7 +162,12 @@ Chukwuemeka@Ubuntu~$ ./echo "Reverse" | ./21-reverse
 esreveR
 </pre>
 
-
+### 22-users_and_homes
+This script will on execution, parse the `/etc/passwd` file and display the user details and the home directory information for each of the user profiles listed in the file (Every line represent a user detail). In order to use it. type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./22-users_and_homes
+</pre>
+press ENTER
 
 
 
