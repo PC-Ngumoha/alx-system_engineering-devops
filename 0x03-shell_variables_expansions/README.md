@@ -72,6 +72,14 @@ BEST="School"
 ...
 </pre>  
 
+### 8-true_knowledge
+This script will on execution, display the result of summing up the value of the global variable `TRUEKNOWLEDGE` and `128` to the terminal. For example: 
+<pre>
+Chukwuemeka@Ubuntu~$ export TRUEKNOWLEDGE=62
+Chukwuemeka@Ubuntu~$ ./8-true_knowledge
+190
+</pre>
+  
 
 
 
