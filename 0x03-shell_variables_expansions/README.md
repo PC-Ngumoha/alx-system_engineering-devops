@@ -27,6 +27,14 @@ This script when executed, will add the directory path `/action` as the last dir
 <pre>
 Chukwuemeka@Ubuntu~$ source ./2-path
 </pre>  
-press ENTER.
+press ENTER
+
+### 3-paths
+This script will on execution, count the number of directories in the `$PATH` environment variable and print the result to the terminal. In order to use it, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ . ./3-paths
+</pre>  
+press ENTER
+
 
 
