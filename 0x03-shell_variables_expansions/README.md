@@ -15,3 +15,11 @@ Chukwuemeka@Ubuntu~$ unalias ls
 </pre>  
 press ENTER.
 
+### 1-hello_you
+This script when executed, will print the message; `hello {Current user's name}` to the terminal followed by a newline. In order to use this script, run it in the terminal by typing: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./1-hello_you
+</pre>  
+press ENTER
+
+
