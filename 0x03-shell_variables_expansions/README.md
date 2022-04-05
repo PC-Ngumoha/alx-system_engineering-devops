@@ -36,5 +36,12 @@ Chukwuemeka@Ubuntu~$ . ./3-paths
 </pre>  
 press ENTER
 
+### 4-global_variables
+This script will on execution, list out all the environment variables (global variables) that have been defined for this particular user. In order to use it, open a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./4-global_variables
+</pre>  
+press ENTER
+
 
 
