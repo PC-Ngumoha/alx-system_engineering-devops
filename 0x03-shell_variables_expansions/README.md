@@ -106,6 +106,14 @@ Chukwuemeka@Ubuntu~$ export BINARY=101001110010
 Chukwuemeka@Ubuntu~$ ./11-binary_to_decimal
 2674
 </pre>
+
+
+### 12-combinations
+This script will generate a list of all the posible combinations of two letters. In order to use it, open up a terminal and type:
+<pre>
+Chukwuemeka@Ubuntu~$ ./12-combinations
+</pre>  
+press ENTER.
   
 
 
