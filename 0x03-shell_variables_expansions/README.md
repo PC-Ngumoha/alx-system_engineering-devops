@@ -43,5 +43,12 @@ Chukwuemeka@Ubuntu~$ ./4-global_variables
 </pre>  
 press ENTER
 
+### 5-local_variables
+This script will on execution, list out all the global variables, local variables and functions that have been defined for this particular user. In order to use it, open up a terminal and type: 
+<pre>
+Chukwuemeka@Ubuntu~$ ./5-local_variables
+</pre>  
+press ENTER
+
 
 
