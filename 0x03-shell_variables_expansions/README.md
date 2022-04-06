@@ -113,7 +113,22 @@ This script will generate a list of all the posible combinations of two letters.
 <pre>
 Chukwuemeka@Ubuntu~$ ./12-combinations
 </pre>  
-press ENTER.
+press ENTER
+
+### 13-print_float
+This script will on execution, print to the terminal the value of the global variable `$NUM` to two decimal places. For example: 
+<pre>
+Chukwuemeka@Ubuntu~$ export NUM=0
+Chukwuemeka@Ubuntu~$ ./13-print_float
+0.00
+Chukwuemeka@Ubuntu~$ export NUM=23
+Chukwuemeka@Ubuntu~$ ./13-print_float
+23.00
+Chukwuemeka@Ubuntu~$ export NUM=3.14159265359
+Chukwuemeka@Ubuntu~$ ./13-print_float
+3.14
+Chukwuemeka@Ubuntu~$ 
+</pre>  
   
 
 
