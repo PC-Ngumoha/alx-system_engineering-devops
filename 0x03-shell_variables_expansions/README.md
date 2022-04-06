@@ -128,7 +128,8 @@ Chukwuemeka@Ubuntu~$ export NUM=3.14159265359
 Chukwuemeka@Ubuntu~$ ./13-print_float
 3.14
 Chukwuemeka@Ubuntu~$ 
-</pre>  
+</pre>
+That should work   
   
 
 
