@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Program reads and displays the contents of '/etc/passwd' file
+
+while IFS=':' read -ra line
+do
+	echo "${line[0]}:${line[2]}:${line[5]}"
+done < /etc/passwd
