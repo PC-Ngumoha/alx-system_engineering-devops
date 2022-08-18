@@ -10,5 +10,5 @@ do
 	U_Id_info=${info[4]}
 	Home_dir=${info[5]}
 	shell=${info[6]}
-	echo "The user $user_name is a part of the $G_Id gang, lives in $Home_dir and rides $shell. $U_Id's place is protected by the passcode $passwd, more info about the user here: $U_Id_info"
+	echo "The user $user_name is part of the $G_Id gang, lives in $Home_dir and rides $shell. $U_Id's place is protected by the passcode $passwd, more info about the user here: $U_Id_info"
 done < /etc/passwd
