@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Prints 'Best School' to the screen 10 times
+
+count=0
+until [ $count -ge 10 ]
+do
+	echo "Best School "
+	(( count++ ))
+done
