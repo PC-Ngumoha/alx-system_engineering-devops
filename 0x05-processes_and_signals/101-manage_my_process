@@ -9,11 +9,9 @@ case $operation in
 	"start" )
 		$run_process &
 		pid=$!
-		if [ ! -e $FILE ]
-		then
-			sudo touch $FILE
-			sudo chmod 757 $FILE
-		fi
+
+		sudo touch $FILE
+		sudo chmod 757 $FILE
 		echo "$pid" > $FILE
 		echo "manage_my_process started"
 		;;
