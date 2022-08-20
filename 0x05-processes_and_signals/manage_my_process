@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# A simple script that creates a background process and writes to a file
+# behind the scenes.
+
+FILE="/tmp/my_process"
+
+if [ ! -e $FILE ]
+then
+	sudo touch $FILE
+	sudo chmod 757 $FILE
+fi
+
+while true
+do
+	echo "I am alive!" >> $FILE
+	sleep 2
+done
