@@ -2,4 +2,4 @@
 # Analyses the apache log file and computes the number of occurrences of certain visitor's ip address and status codes
 # Then it displays the output to the screen: From the most occurrence to the least occurrence
 
-awk -F " " '{ count[$1" "$9]++ } END{ for (name in count) {print count[name]/2 " " name }; }' apache-access.log | sort -n -k1 -r
+awk -F " " 'NR==FNR{ count[$1" "$9]++ } END{ for (name in count) {print count[name]/2 " " name }; }' apache-access.log | sort -n -k1 -r
