@@ -2,8 +2,5 @@
 # Maps 'localhost' to a new IP address and creates a new mapping for 'facebook.com'
 
 file="/etc/hosts"
-temp="~/hosts.new"
-cp $file $temp
-sed -i '1s/^/8.8.8.8\tfacebook.com\n/' $temp 
-sed -i 's/127.0.0.1/127.0.0.2/' $temp
-cp -f $temp $file
+sed -i '1s/^/8.8.8.8\tfacebook.com\n/' $file 
+sed -i 's/127.0.0.1/127.0.0.2/' $file
