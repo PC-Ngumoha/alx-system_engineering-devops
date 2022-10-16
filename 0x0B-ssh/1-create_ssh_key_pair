@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Creates ssh key pairs in the current directory
+
+ssh-keygen -f school -b 4096 -N betty
