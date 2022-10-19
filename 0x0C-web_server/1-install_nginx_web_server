@@ -30,4 +30,4 @@ sudo chmod 755 /var/www/html/index.nginx-debian.html
 sudo nginx -t
 
 # Step 6: Restart the server, so that all changes can take effect
-# sudo service nginx restart
+sudo service nginx restart
