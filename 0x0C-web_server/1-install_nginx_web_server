@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+# Installs and sets up nginx web server on my server
+
+# Step 1: Update local repos and install nginx
+sudo apt-get update
+sudo apt-get -y install nginx
+
+# Step 2: Check If ufw is enabled.
+sudo ufw status | grep -qw active
+return_status=$?
+if [ "$return_status" -gt 0 ]  # Not enabled, so we proceed to enable it
+then
+	echo 'y' | sudo ufw enable
+fi
+
+# Set ufw to allow Nginx to listen on port 80
+sudo ufw allow 'Nginx HTTP'
+
+# Step 3: Make the web root documents accessible to the current user
+sudo chown -R $USER:$USER /var/www/html
+sudo chmod -R 755 /var/www
+
+# Step 4: Update the contents of the default html page to be displayed to the screen
+# whenever the server is queried
+sudo chmod a+w /var/www/html/index.nginx-debian.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
+sudo chmod 755 /var/www/html/index.nginx-debian.html
+
+# Step 5: Ensure that there are no errors in any of our nginx files
+sudo nginx -t
+
+# Step 6: Restart the server, so that all changes can take effect
+sudo service nginx restart
