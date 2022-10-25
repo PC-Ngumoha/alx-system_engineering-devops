@@ -5,4 +5,6 @@
 
 ### 1-install_nginx_web_server
 
+### 2-setup_a_domain_name
+
 ### 
