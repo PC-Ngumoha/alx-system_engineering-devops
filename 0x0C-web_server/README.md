@@ -7,4 +7,6 @@
 
 ### 2-setup_a_domain_name
 
-### 
+### 3-redirection
+
+###  
