@@ -33,7 +33,7 @@ sudo chmod 755 /var/www/html/index.nginx-debian.html
 # anytime we try to access the 'redirect_me' route
 config_file="/etc/nginx/sites-available/default"
 line_1="\tlocation = /redirect_me/ {"
-line_2="\t\trewrite ^/redirect_me/ https://www.youtube.com permanent;"
+line_2="\t\trewrite ^/redirect_me/ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
 line_3="\t}"
 line_4="\t# pass PHP scripts to FastCGI server"
 route_redirect="$line_1\n$line_2\n$line_3\n$line_4"
