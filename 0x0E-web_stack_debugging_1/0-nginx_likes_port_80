@@ -4,12 +4,5 @@
 sudo apt-get update
 sudo apt-get install -y nginx
 
-# Checks if Nginx is already installed
-ps -ef | grep nginx > /dev/null
-nginx=$?
-if [ "$nginx" -eq 0 ]
-then
-	# Started the Nginx service
-	sudo service nginx start
-fi
 
+sudo service nginx start
