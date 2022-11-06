@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+# Installs and sets up the Haproxy load balancer software on a remote server.
+server_one="36755-web-01"
+ip_one="52.3.220.41:80"
+server_two="36755-web-02"
+ip_two="3.84.168.183:80"
+default_config="/etc/default/haproxy"
+haproxy_setup="/etc/haproxy/haproxy.cfg"
+
+# Organizing the lines to be substituted in the backend section of the configuration
+back_one="backend web_back"
+back_two="\tbalance roundrobin"
+back_three="\thttp-reuse always"
+back_four="\tserver $server_one $ip_one check"
+back_five="\tserver $server_two $ip_two check"
+backend_config="$back_one\n$back_two\n$back_three\n$back_four\n$back_five"
+
+# Organizing the lines to be substituted in the frontend section of the configuration
+front_one="frontend web_front"
+front_two="\tbind *:80"
+front_three="\tmode http"
+front_four="\toption http-keep-alive"
+front_five="\tdefault_backend web_back"
+frontend_config="$front_one\n$front_two\n$front_three\n$front_four\n$front_five"
+
+# Installs the load balancer and sets it up
+sudo apt-get update
+sudo apt-get install -y haproxy
+
+
+# Set the haproxy to managed using the /etc/init.d/haproxy script
+sudo chmod 666 "$default_config"
+sudo echo -e "ENABLED=1" >> "$default_config"
+sudo chmod 644 "$default_config"
+
+sudo chmod 666 "$haproxy_setup"
+# Add the configurations for the front end of the load balancer.
+sudo echo -e "$frontend_config" >> "$haproxy_setup"
+
+# Add the configurations for the back end of the load balancer.
+sudo echo -e "$backend_config" >> "$haproxy_setup"
+
+sudo chmod 644 "$haproxy_setup"
+
+# Restarting the haproxy load balancer
+sudo service haproxy restart
