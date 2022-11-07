@@ -4,33 +4,8 @@
 # Step 1: Update local repos and install nginx
 sudo apt-get update
 sudo apt-get -y install nginx
-
-# Step 3: Check If ufw is enabled.
-sudo ufw status | grep -qw active
-return_status=$?
-if [ "$return_status" -gt 0 ]  # Not enabled, so we proceed to enable it
-then
-	echo 'y' | sudo ufw enable
-fi
-
-# Set ufw to allow all SSH connections on port 22
-sudo ufw allow 'OpenSSH'
-
-# Set ufw to allow Nginx to listen on port 80
-sudo ufw allow 'Nginx HTTP'
-
-# Step 4: Make the web root documents accessible to the current user
-sudo chown -R "$USER":"$USER" /var/www/html
-sudo chmod -R 755 /var/www
-
-# Step 5: Update the contents of the default html page to be displayed to the screen
-# whenever the server is queried
-sudo chmod a+w /var/www/html/index.nginx-debian.html
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
-sudo chmod 755 /var/www/html/index.nginx-debian.html
 
-# Step 6: Configure the default configuration to redirect to another page (youtube)
-# anytime we try to access the 'redirect_me' route
 config_file="/etc/nginx/sites-available/default"
 line_1="\tlocation = /redirect_me/ {"
 line_2="\t\trewrite ^/redirect_me/ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
@@ -38,8 +13,6 @@ line_3="\t}"
 line_4="\t# pass PHP scripts to FastCGI server"
 route_redirect="$line_1\n$line_2\n$line_3"
 sudo sed -i "/$line_4/i \ $route_redirect" "$config_file"
-
-# Step 7: Configure the server to return a custom 404 error page when it has to.
 
 error_page="/error_page.html"
 root_dir="/var/www/html"
@@ -54,14 +27,9 @@ line_5="\t}"
 append="$line_1\n$line_2\n$line_3\n$line_4\n$line_5"
 sudo sed -i "/$current/a \ $append" "$config_file"
 
-# Step 8: Add a new response header to the Nginx server
 hostname=$(hostname)
 line="\tindex index.html index.htm index.nginx-debian.html;"
 line_after="\tadd_header X-Served-By $hostname;"
 sudo sed -i "/$line/a \ $line_after" "$config_file"
 
-# Step 9: Ensure that there are no errors in any of our nginx files
-sudo nginx -t
-
-# Step 10: Restart the server, so that all changes can take effect
-sudo service nginx restart
+sudo service nginx start
