@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Takes domain names and prints out the subdomain's information
+domain=$1
+subdomain=$2
+# HELPER FUNCTION DEFINITION
+list_all_subdomains () {
+	subdomains=("www" "lb-01" "web-01" "web-02")
+	for sub in "${subdomains[@]}"; do
+		full="${sub}.${domain}"
+		dig "$full" +noall +answer | awk -v ans="$sub" 'BEGIN{dom=ans} {print "The subdomain "dom" is a "$4" record and points to "$5}'
+	done
+}
+# MAIN CODE BODY
+if [ -z "$subdomain" ]; then
+	list_all_subdomains
+else
+	full="${subdomain}.${domain}"
+	dig "$full" +noall +answer | awk -v ans="$subdomain" 'BEGIN{dom=ans} {print "The subdomain "dom" is a "$4" record and points to "$5}'
+fi
