@@ -2,8 +2,8 @@
 # Takes domain names and prints out the subdomain's information
 
 domain_info () {
-	full="$2.$1"
-	dig "$full" +noall +answer | awk -v ans="$2" 'BEGIN{dom=ans} {print "The subdomain "dom" is a "$4" record and points to "$5}'
+		line=$(dig "$2"."$1" +noall +answer)
+		echo "$2 $line" | awk '{print "The subdomain "$1" is a "$5" record and points to "$6}'
 }
 
 if [ "$#" -eq 1 ]; then
