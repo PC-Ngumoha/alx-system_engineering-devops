@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Program to install, setup and configure the UFW firewall on our web-01 ubuntu server
+sudo apt update
+sudo apt install -y ufw
+sudo ufw disable
+
+# Setting the firewall rules.
+sudo ufw default deny incoming
+sudo ufw default allow incoming
+sudo ufw allow 22   # OpenSSH
+sudo ufw allow 443  # HTTPS
+sudo ufw allow 80   # HTTP
+# Enable the firewall to start it's operations.
+echo 'y' | sudo ufw enable
