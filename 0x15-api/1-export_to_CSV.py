@@ -12,7 +12,7 @@ if __name__ == '__main__':
                          .format(sys.argv[1])}).json()
 
     with open('{}.csv'.format(user.get("id")), 'w') as file:
-        writer = csv.writer(file)
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL)
         user_id, username = (user.get("id"), user.get("username"))
         for todo in todos:
             status, title = (todo.get("completed"), todo.get("title"))
