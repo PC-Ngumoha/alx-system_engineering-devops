@@ -5,7 +5,7 @@ import requests
 
 def top_ten(subreddit):
     """number_of_subscribers function"""
-    base_url = 'https://www.reddit.com/r/{}/top.json'.format(subreddit)
+    base_url = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
     res = requests.get(base_url, params={'show': 'all', 'limit': '10'},
                        headers={'User-Agent': 'Chrome/51.0.2704.103'},
                        allow_redirects=False)
