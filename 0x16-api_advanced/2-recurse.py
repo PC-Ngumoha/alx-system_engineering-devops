@@ -16,6 +16,9 @@ def recurse(subreddit, hot_list=[], counter=0):
             hot_list.append(data['data']['title'])
             return recurse(subreddit, hot_list, counter + 1)
         elif counter >= len(posts['data']['children']):
-            return hot_list
+            if len(hot_list) == 0:
+                return None
+            else:
+                return hot_list
     else:
         return None
