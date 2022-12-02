@@ -1,4 +1,4 @@
-![401 Error Image For The Postmortem](https://www.shutterstock.com/image-vector/401-error-linear-icon-website-thin-2042177762)
+![401 Error Image For The Postmortem](https://kinsta.com/wp-content/uploads/2020/06/401-error.jpg)
 # Orupay Development Server Report
 A few days ago, the entire *Orupay* web application refused to load up in the browser and kept returning 401 messages on test. The main impact of this was the fact that all further development of the web application by the team had to be suspended until the problem could be rectified. It turns out that all this was caused by an Nginx configuration file which had not been properly linked with the running process of the server.
 
