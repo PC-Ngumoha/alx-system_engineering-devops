@@ -1,6 +1,6 @@
 ![401 Error Image For The Postmortem](https://kinsta.com/wp-content/uploads/2020/06/401-error.jpg)
 # Orupay Development Server Failure Report
-A few days ago, the entire *Orupay* web application refused to load up in the browser and kept returning 401 messages on test. The main impact of this was the fact that all further development of the web application by the team had to be suspended until the problem could be rectified. It turns out that all this was caused by an Nginx configuration file which had not been properly linked with the running process of the server.
+A few days ago, the entire *Orupay* web application refused to load up in the browser and kept returning 401 messages on test. As a result, all further development of the web application by the team had to be suspended until the problem could be rectified. It turns out that all this was caused by an Nginx configuration file which had not been properly linked with the running process of the server.
 
 ## Timeline
 On Wednesday, 30<sup>th</sup> November 2022 1:00pm (West African Time), this problem was identified and reported by one of the engineers responsible for the reliability of the site. As it turns out, all HTTP requests to the site were returning only 401 messages. After doing his best to resolve the problem and not being able to, the engineer ended up forwarding it to me on Thursday, 1<sup>st</sup> December, 2022 11:00am (West African Time).
