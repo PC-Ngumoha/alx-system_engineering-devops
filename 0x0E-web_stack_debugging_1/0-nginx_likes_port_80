@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # Sets up an Nginx server to return a page only on port 80
 
-old_line="\tlisten [::]:80 default_server ipv6only=on;"
-new_line="#$old_line"
-file_path="/etc/nginx/sites-available/default"
-sudo sed -i "s/$old_line/$new_line/g" "$file_path"
+sudo rm -rf /etc/nginx/sites-enabled/default
+sudo ln --symbolic /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
