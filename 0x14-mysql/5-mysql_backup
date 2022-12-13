@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Creates a mysql backup and compresses said backup into a tar archive file.
-passwd=$1
-file=$(date '+%d-%m-%Y')
-mysqldump --user=root --password="$passwd" --all-databases > backup.sql
-tar -czvf "$file".tar.gz backup.sql
