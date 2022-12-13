@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-# Shortened version of the script that fixes the problem with the nginx server.
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-service nginx start
-kill "$(pgrep 'nginx' | head -1)"
