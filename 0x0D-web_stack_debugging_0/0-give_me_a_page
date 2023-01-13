@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Solution to the webstack debugging challenge #0
+sudo service apache2 start
