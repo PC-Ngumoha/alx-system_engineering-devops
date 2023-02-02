@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Runs Nginx server under the nginx user
+sed -i "s/#user www-data/user nginx/" /etc/nginx/nginx.conf
+sed -i "s/80/8080/" /etc/nginx/sites-available/default
+rm -rf /etc/nginx/sites-enabled/ ; ln -s /etc/nginx/sites-available/ /etc/nginx/sites-enabled
+chmod 644 /etc/nginx/nginx.conf ; pkill apache2
+sudo -u nginx service nginx start
