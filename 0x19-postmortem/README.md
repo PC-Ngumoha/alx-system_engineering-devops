@@ -15,4 +15,4 @@ The problem was resolved by first turning off the server, deleting the currently
 ## What Can Be Done To Prevent Future Occurences 
 - Endeavour to delete and recreate old symlinks to configuration file whenever it is updated
 - Regular maintenance of the Nginx web server
-- Extensive use of monitoring tools like DataDog, NewRelic e.t.c to automate the process of monitoring App performance and sending alerts when the need arise. 
+- Extensive use in future versions of the app of monitoring tools such as DataDog, NewRelic and the likes to automate the process of monitoring App performance and sending alerts when the need arise. 
